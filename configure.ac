@@ -8,7 +8,7 @@ define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2017)
 define(_COPYRIGHT_HOLDERS,[%s])
 define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[MinexWallet]])
-AC_INIT([MinexWallet],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/bitcoin/bitcoin/issues],[bitcoin],[https://bitcoincore.org/])
+AC_INIT([MinexWallet],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/bitcoin/bitcoin/issues],[minexcoin],[https://bitcoincore.org/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -16,8 +16,8 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 BITCOIN_DAEMON_NAME=minexcoind
 BITCOIN_GUI_NAME=minexcoin-qt
-BITCOIN_CLI_NAME=minexcoind-cli
-BITCOIN_TX_NAME=minexcoind-tx
+BITCOIN_CLI_NAME=minexcoin-cli
+BITCOIN_TX_NAME=minexcoin-tx
 
 AC_CANONICAL_HOST
 
