@@ -2,11 +2,11 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-TESTS += test/test_bitcoin
-bin_PROGRAMS += test/test_bitcoin
-noinst_PROGRAMS += test/test_bitcoin_fuzzy
+TESTS += test/test_minexcoin
+bin_PROGRAMS += test/test_minexcoin
+noinst_PROGRAMS += test/test_minexcoin_fuzzy
 TEST_SRCDIR = test
-TEST_BINARY=test/test_bitcoin$(EXEEXT)
+TEST_BINARY=test/test_minexcoin$(EXEEXT)
 
 
 EXTRA_DIST += \
