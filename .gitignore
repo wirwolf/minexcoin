@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
+src/minexcoin
 src/minexcoind
 src/minexcoin-cli
 src/minexcoin-tx
-src/test/test_bitcoin
-src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/test/test_minexcoin
+src/test/test_minexcoin_fuzzy
+src/qt/test/test_minexcoin-qt
 
 # autoreconf
 Makefile.in
@@ -75,7 +75,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 minexcoin-qt
-Bitcoin-Qt.app
+MinexWallet-Qt.app
 
 # Unit-tests
 Makefile.test
